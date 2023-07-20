@@ -17,6 +17,7 @@ javascript
 
 let mensagem1 = 'Olá, mundo!'; // Aspas simples
 let mensagem2 = "Bem-vindo ao JavaScript"; // Aspas duplas
+
 2. Concatenando Strings
 Para combinar duas ou mais strings, você pode usar o operador +:
 
@@ -26,6 +27,7 @@ let nome = 'João';
 let sobrenome = 'Silva';
 let nomeCompleto = nome + ' ' + sobrenome;
 console.log(nomeCompleto); // Saída: João Silva
+
 3. Acessando caracteres individuais
 Você pode acessar caracteres individuais em uma string usando a notação de colchetes:
 
@@ -34,6 +36,7 @@ javascript
 let texto = 'Exemplo';
 console.log(texto[0]); // Saída: E
 console.log(texto[2]); // Saída: e
+
 4. Obtendo o comprimento de uma String
 Para saber o tamanho de uma string, você pode usar a propriedade length:
 
@@ -41,6 +44,7 @@ javascript
 
 let mensagem = 'Olá, mundo!';
 console.log(mensagem.length); // Saída: 12
+
 5. Transformando texto em maiúsculas e minúsculas
 Para converter o texto em maiúsculas ou minúsculas, você pode usar os métodos toUpperCase() e toLowerCase():
 
@@ -49,6 +53,7 @@ javascript
 let texto = 'JavaScript é incrível!';
 console.log(texto.toUpperCase()); // Saída: JAVASCRIPT É INCRÍVEL!
 console.log(texto.toLowerCase()); // Saída: javascript é incrível!
+
 Dicas e Curiosidades sobre Strings em JavaScript
 As strings são imutáveis em JavaScript, o que significa que, uma vez criadas, elas não podem ser alteradas. Métodos de string como toUpperCase() e toLowerCase() não modificam a string original, mas retornam uma nova string modificada.
 
