@@ -13,15 +13,11 @@ Como usar Strings em JavaScript - Exemplos
 1. Criando uma String
 Você pode criar uma string em JavaScript usando aspas simples ou duplas:
 
-javascript
-
 let mensagem1 = 'Olá, mundo!'; // Aspas simples
 let mensagem2 = "Bem-vindo ao JavaScript"; // Aspas duplas
 
 2. Concatenando Strings
 Para combinar duas ou mais strings, você pode usar o operador +:
-
-javascript
 
 let nome = 'João';
 let sobrenome = 'Silva';
@@ -31,8 +27,6 @@ console.log(nomeCompleto); // Saída: João Silva
 3. Acessando caracteres individuais
 Você pode acessar caracteres individuais em uma string usando a notação de colchetes:
 
-javascript
-
 let texto = 'Exemplo';
 console.log(texto[0]); // Saída: E
 console.log(texto[2]); // Saída: e
@@ -40,15 +34,11 @@ console.log(texto[2]); // Saída: e
 4. Obtendo o comprimento de uma String
 Para saber o tamanho de uma string, você pode usar a propriedade length:
 
-javascript
-
 let mensagem = 'Olá, mundo!';
 console.log(mensagem.length); // Saída: 12
 
 5. Transformando texto em maiúsculas e minúsculas
 Para converter o texto em maiúsculas ou minúsculas, você pode usar os métodos toUpperCase() e toLowerCase():
-
-javascript
 
 let texto = 'JavaScript é incrível!';
 console.log(texto.toUpperCase()); // Saída: JAVASCRIPT É INCRÍVEL!
@@ -61,12 +51,11 @@ Use o método trim() para remover espaços em branco do início e do final de um
 
 O operador de interpolação ${} é uma maneira moderna de inserir variáveis em strings. Isso é feito usando o acento grave (backtick):
 
-javascript
-
 let nome = 'Maria';
 let idade = 30;
 let mensagem = `Meu nome é ${nome} e tenho ${idade} anos.`;
 console.log(mensagem); // Saída: Meu nome é Maria e tenho 30 anos.
+
 Lembre-se de que índices de strings em JavaScript começam em 0. Ou seja, o primeiro caractere está no índice 0, o segundo no índice 1 e assim por diante.
 
 As strings têm vários métodos embutidos em JavaScript, como charAt(), substring(), indexOf(), replace() e muitos outros. Explore a documentação para aprender mais sobre eles.
