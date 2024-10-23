@@ -1,7 +1,7 @@
-Guia de Comandos Básicos de Terminal
+****Guia de Comandos Básicos de Terminal****
 Este guia fornece uma visão geral dos comandos de terminal mais básicos e essenciais para navegar e manipular arquivos e diretórios em sistemas Windows, Linux e Mac.
 
-1. Navegar entre Diretórios com cd
+1. **Navegar entre Diretórios com cd**
    O comando cd (Change Directory) permite mudar entre os diretórios no sistema de arquivos.
 
 Exemplos:
@@ -11,7 +11,7 @@ cd /caminho/do/diretório
 cd ..
 O primeiro exemplo navega até o diretório especificado. O segundo (cd ..) retorna para o diretório pai (um nível acima).
 
-2. Listar Conteúdo de um Diretório com dir ou ls
+2. **Listar Conteúdo de um Diretório com dir ou ls**
    Esses comandos listam os arquivos e pastas dentro de um diretório.
 
 Windows: Utilize dir
@@ -23,7 +23,7 @@ ls
 ls -la
 O comando ls -la mostra detalhes adicionais, como permissões, dono, e tamanho dos arquivos.
 
-3. Criar e Excluir Diretórios com mkdir e rmdir
+3. **Criar e Excluir Diretórios com mkdir e rmdir**
    Criar Diretórios:
    Windows/Linux/Mac:
 
