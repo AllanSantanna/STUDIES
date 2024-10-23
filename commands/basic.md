@@ -1,4 +1,6 @@
 ****Guia de Comandos Básicos de Terminal****
+
+
 Este guia fornece uma visão geral dos comandos de terminal mais básicos e essenciais para navegar e manipular arquivos e diretórios em sistemas Windows, Linux e Mac.
 
 1. **Navegar entre Diretórios com cd**
